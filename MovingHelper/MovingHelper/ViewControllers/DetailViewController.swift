@@ -40,6 +40,7 @@ class DetailViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    print("detail loaded");
     moveDate = NSUserDefaults.standardUserDefaults().objectForKey(UserDefaultKey.MovingDate.rawValue) as! NSDate
   }
   
